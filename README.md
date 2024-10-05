@@ -1,6 +1,6 @@
 # git_helps
 some useful hints for git incase brain dead
-( https://github.com/ToaToes/git_helps/blob/main/MgaV9.png)
+![alt text]( https://github.com/ToaToes/git_helps/blob/main/MgaV9.png)
 
 
 ## Repository Initialize
