@@ -12,7 +12,7 @@ git init
 ```
 git clone <repository-url>
 ```
-## git clone can potentially override local files if you try to clone a repository into a directory that already contains files. 
+### git clone can potentially override local files if you try to clone a repository into a directory that already contains files. 
 </br>Empty Directory: If you clone a repository into an empty directory, it will copy all the files and commit history from the remote repository into that directory without issues.
 </br>Non-Empty Directory: If you attempt to clone a repository into a directory that already has files, Git will not allow it and will display an error message:
 
