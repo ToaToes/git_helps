@@ -7,12 +7,12 @@ some useful hints for git incase brain dead
 ```
 git init
 ```
-# Clone an Existing Repository: 
+## Clone an Existing Repository: 
 </br>If you meant to work with an existing repository, you might need to clone it from GitHub or another source. You can do this with:
 ```
 git clone <repository-url>
 ```
-# git clone can potentially override local files if you try to clone a repository into a directory that already contains files. 
+## git clone can potentially override local files if you try to clone a repository into a directory that already contains files. 
 </br>Empty Directory: If you clone a repository into an empty directory, it will copy all the files and commit history from the remote repository into that directory without issues.
 </br>Non-Empty Directory: If you attempt to clone a repository into a directory that already has files, Git will not allow it and will display an error message:
 
@@ -32,14 +32,14 @@ git clone <repository-url> existing-directory
 git pull
 ```
 
-</br> ## Check Remote Repository: 
+## Check Remote Repository: 
 </br> Ensure your local repository is linked to the correct GitHub repository. You can check this with:
 ```
 git remote -v
 ```
 This will list the remote repositories associated with your local repo.
 
-</br> ## Stage all changes:
+## Stage all changes:
 ```
 git add .
 ```
@@ -48,7 +48,7 @@ stage selected files:
 git add [filename1] [filename2]
 ```
 
-</br> ## Commit changes: 
+## Commit changes: 
 </br> Commit the staged changes with a descriptive message:
 ```
 git commit -m "Your commit message here"
@@ -64,7 +64,7 @@ git fetch origin
 ```
 
 
-</br> ## Cancel the commit / Reset commit 
+## Cancel the commit / Reset commit 
 </br> To remove the last commit but keep the changes in your working directory:
 ```
 git reset 
@@ -75,7 +75,7 @@ git reset --hard [HEAD~1]
 ```
 
 </br> Then create a new commit
-</br> ## Push the Changes: Finally, push the updated commit to the remote repository:
+## Push the Changes: Finally, push the updated commit to the remote repository:
 ```
 git push origin main --force
 ```
@@ -100,7 +100,7 @@ git push origin main --force
 
 
 
-</br> ## Push Changes to GitHub:
+## Push Changes to GitHub:
 </br> Push your committed changes to the specific GitHub repository. If you want to push to the main branch (or any other branch), use:
 ```
 git push origin main
@@ -108,7 +108,7 @@ git push origin main
 Replace main with the name of the branch you're working on if it's different.
 
 
-</br> ## Branching: 
+## Branching: 
 </br> If you want to commit to a branch other than main, ensure you're on that branch by using:
 ```
 git checkout [branch-name]
