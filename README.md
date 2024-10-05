@@ -2,11 +2,13 @@
 some useful hints for git incase brain dead
 
 
-</br> ## Repository Initialize
+## Repository Initialize
 </br> If you intended to start a new repository in this directory, you can initialize it with:
 ```
 git init
 ```
+
+
 ## Clone an Existing Repository: 
 </br>If you meant to work with an existing repository, you might need to clone it from GitHub or another source. You can do this with:
 ```
@@ -32,12 +34,14 @@ git clone <repository-url> existing-directory
 git pull
 ```
 
+
 ## Check Remote Repository: 
 </br> Ensure your local repository is linked to the correct GitHub repository. You can check this with:
 ```
 git remote -v
 ```
 This will list the remote repositories associated with your local repo.
+
 
 ## Stage all changes:
 ```
@@ -47,6 +51,7 @@ stage selected files:
 ```
 git add [filename1] [filename2]
 ```
+
 
 ## Commit changes: 
 </br> Commit the staged changes with a descriptive message:
@@ -117,7 +122,6 @@ Create a New Branch (Optional): If you want to work on a new branch before pushi
 ```
 git checkout -b [new-branch-name]
 ```
-
 Example: 
 ```
 cd path/to/your/local/repo
