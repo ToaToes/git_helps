@@ -132,3 +132,39 @@ git commit -m "Add new feature" # Commit changes
 git push origin main          # Push to the main branch on GitHub
 ```
 
+
+## Good practice in practical work:
+
+
+
+Stash Your Changes: If you have uncommitted changes, run:
+```
+git stash
+```
+This saves your changes temporarily and gives you a clean working directory.
+
+
+Pull the Latest Changes: Next, get the latest code from the branch:
+```
+git pull
+```
+
+Apply Your Stashed Changes: After pulling, you can bring back your stashed changes:
+```
+git stash pop
+```
+Resolve Conflicts (if any): If there are conflicts, resolve them as needed.
+
+
+Commit Your Changes: Once everything is in order, commit your changes:
+```
+git add .
+git commit -m "Your commit message"
+```
+
+
+Push to the Branch: Finally, push your changes to the remote repository:
+```
+git push
+```
+This workflow helps you avoid conflicts and ensures you’re working with the latest code.
