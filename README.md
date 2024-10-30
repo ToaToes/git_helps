@@ -135,8 +135,6 @@ git push origin main          # Push to the main branch on GitHub
 
 ## Good practice in practical work:
 
-
-
 Stash Your Changes: If you have uncommitted changes, run:
 ```
 git stash
@@ -168,3 +166,28 @@ Push to the Branch: Finally, push your changes to the remote repository:
 git push
 ```
 This workflow helps you avoid conflicts and ensures you’re working with the latest code.
+
+## Then, make a Pull Request
+**Create a Pull Request (PR)**
+
+Open a Pull Request: Navigate to your repository on the platform you're using (like GitHub, GitLab, or Bitbucket).
+
+Select Your Branch: Choose the branch where you made your changes and select the target branch (usually main or develop).
+
+Fill Out the PR Template: Include a clear description of what the changes do, any relevant issues they address, and other context that might be useful for the reviewer.
+```
+### Summary
+This PR implements the new feature for user authentication.
+
+### Changes Made
+- Added login and signup forms
+- Implemented validation for user input
+- Updated backend API endpoints for user management
+
+### Related Issues
+- Fixes #123
+- Implements #456
+
+@leader-username Please review this when you can!
+
+```
